@@ -98,7 +98,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="n1L-lN-LC3" customClass="DragImg" customModule="my_little_monster" customModuleProvider="target">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="n1L-lN-LC3" customClass="DragImg" customModule="my_little_monster" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="95" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="95" id="Ceh-0u-jfa"/>
@@ -114,7 +114,7 @@
                                         <exclude reference="wA9-Lf-jdC"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=compact" misplaced="YES">
+                                <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="495" y="136" width="60" height="98"/>
                                     <mask key="constraints">
                                         <include reference="hKM-LW-EaD"/>
@@ -129,7 +129,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="IKg-cg-a8i" customClass="DragImg" customModule="my_little_monster" customModuleProvider="target">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="IKg-cg-a8i" customClass="DragImg" customModule="my_little_monster" customModuleProvider="target">
                                 <rect key="frame" x="105" y="0.0" width="95" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="95" id="2Vl-Hw-GOI"/>
@@ -145,7 +145,8 @@
                                         <exclude reference="nKh-wC-Rge"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=compact">
+                                <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="495" y="242" width="60" height="98"/>
                                     <mask key="constraints">
                                         <include reference="gtg-az-d25"/>
                                         <include reference="nKh-wC-Rge"/>
@@ -186,7 +187,6 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="H4p-bj-GGC" secondAttribute="bottom" constant="32" id="Zow-pu-4ul"/>
                             <constraint firstItem="HNW-Tc-EE3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ato-bp-uls"/>
                             <constraint firstItem="H4p-bj-GGC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fQ8-KW-1sm"/>
-                            <constraint firstItem="PGe-JY-oKX" firstAttribute="top" secondItem="IKg-cg-a8i" secondAttribute="bottom" id="hJR-gV-9EN"/>
                             <constraint firstItem="i5B-jl-VO6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="jtD-fl-UJS"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PGe-JY-oKX" secondAttribute="bottom" id="ldZ-F9-t7r"/>
                             <constraint firstItem="H4p-bj-GGC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m8S-nN-iAT"/>
@@ -207,7 +207,6 @@
                                 <exclude reference="w1G-ke-Py5"/>
                                 <exclude reference="Vc6-G8-Fnq"/>
                                 <exclude reference="jtD-fl-UJS"/>
-                                <exclude reference="hJR-gV-9EN"/>
                                 <exclude reference="Bin-Ra-Mdq"/>
                                 <exclude reference="I1D-NC-cTN"/>
                                 <exclude reference="LzP-t4-X5G"/>
@@ -233,7 +232,6 @@
                                 <exclude reference="w1G-ke-Py5"/>
                                 <include reference="Vc6-G8-Fnq"/>
                                 <include reference="jtD-fl-UJS"/>
-                                <include reference="hJR-gV-9EN"/>
                                 <exclude reference="Bin-Ra-Mdq"/>
                                 <exclude reference="I1D-NC-cTN"/>
                                 <include reference="ncr-HQ-W7K"/>
@@ -259,6 +257,9 @@
                         <outlet property="foodImg" destination="IKg-cg-a8i" id="a3n-UG-46W"/>
                         <outlet property="heartImg" destination="n1L-lN-LC3" id="h2t-vd-Qi7"/>
                         <outlet property="monsterImg" destination="H4p-bj-GGC" id="Qhq-aG-DHz"/>
+                        <outlet property="skull1Img" destination="EVw-zZ-Otb" id="ep9-Kd-zug"/>
+                        <outlet property="skull2Img" destination="Y0A-6X-wzm" id="4jR-sD-2LQ"/>
+                        <outlet property="skull3Img" destination="23q-p0-PAO" id="KyV-e9-aE6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
