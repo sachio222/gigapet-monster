@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         foodImg.dropTarget = monsterImg
         heartImg.dropTarget = monsterImg
         
-        
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "itemDroppedOnCharacter:", name: "onTargetDropped", object: nil)
         
     }
