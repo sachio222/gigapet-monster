@@ -14,6 +14,11 @@
 		E21F847C1BCBFAA7005D0F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21F847A1BCBFAA7005D0F5F /* LaunchScreen.storyboard */; };
 		E21F84841BCC10F1005D0F5F /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F84831BCC10F1005D0F5F /* DragImg.swift */; settings = {ASSET_TAGS = (); }; };
 		E21F84881BCC17D9005D0F5F /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F84871BCC17D9005D0F5F /* MonsterImg.swift */; settings = {ASSET_TAGS = (); }; };
+		E27F644B1BCC7BA7006779CE /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = E27F64461BCC7BA7006779CE /* bite.wav */; settings = {ASSET_TAGS = (); }; };
+		E27F644C1BCC7BA7006779CE /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E27F64471BCC7BA7006779CE /* cave-music.mp3 */; settings = {ASSET_TAGS = (); }; };
+		E27F644D1BCC7BA7006779CE /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = E27F64481BCC7BA7006779CE /* death.wav */; settings = {ASSET_TAGS = (); }; };
+		E27F644E1BCC7BA7006779CE /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = E27F64491BCC7BA7006779CE /* heart.wav */; settings = {ASSET_TAGS = (); }; };
+		E27F644F1BCC7BA7006779CE /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = E27F644A1BCC7BA7006779CE /* skull.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		E21F847D1BCBFAA7005D0F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21F84831BCC10F1005D0F5F /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 		E21F84871BCC17D9005D0F5F /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
+		E27F64461BCC7BA7006779CE /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		E27F64471BCC7BA7006779CE /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		E27F64481BCC7BA7006779CE /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		E27F64491BCC7BA7006779CE /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		E27F644A1BCC7BA7006779CE /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 		E21F84701BCBFAA7005D0F5F /* my-little-monster */ = {
 			isa = PBXGroup;
 			children = (
+				E27F64461BCC7BA7006779CE /* bite.wav */,
+				E27F64471BCC7BA7006779CE /* cave-music.mp3 */,
+				E27F64481BCC7BA7006779CE /* death.wav */,
+				E27F64491BCC7BA7006779CE /* heart.wav */,
+				E27F644A1BCC7BA7006779CE /* skull.wav */,
 				E21F84711BCBFAA7005D0F5F /* AppDelegate.swift */,
 				E21F84731BCBFAA7005D0F5F /* ViewController.swift */,
 				E21F84831BCC10F1005D0F5F /* DragImg.swift */,
@@ -127,6 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27F644F1BCC7BA7006779CE /* skull.wav in Resources */,
+				E27F644B1BCC7BA7006779CE /* bite.wav in Resources */,
+				E27F644D1BCC7BA7006779CE /* death.wav in Resources */,
+				E27F644E1BCC7BA7006779CE /* heart.wav in Resources */,
+				E27F644C1BCC7BA7006779CE /* cave-music.mp3 in Resources */,
 				E21F847C1BCBFAA7005D0F5F /* LaunchScreen.storyboard in Resources */,
 				E21F84791BCBFAA7005D0F5F /* Assets.xcassets in Resources */,
 				E21F84771BCBFAA7005D0F5F /* Main.storyboard in Resources */,
@@ -293,6 +313,7 @@
 				E21F84821BCBFAA7005D0F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
