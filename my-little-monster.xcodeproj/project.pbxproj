@@ -13,6 +13,7 @@
 		E21F84791BCBFAA7005D0F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21F84781BCBFAA7005D0F5F /* Assets.xcassets */; };
 		E21F847C1BCBFAA7005D0F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21F847A1BCBFAA7005D0F5F /* LaunchScreen.storyboard */; };
 		E21F84841BCC10F1005D0F5F /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F84831BCC10F1005D0F5F /* DragImg.swift */; settings = {ASSET_TAGS = (); }; };
+		E21F84881BCC17D9005D0F5F /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F84871BCC17D9005D0F5F /* MonsterImg.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E21F847B1BCBFAA7005D0F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E21F847D1BCBFAA7005D0F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21F84831BCC10F1005D0F5F /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		E21F84871BCC17D9005D0F5F /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				E21F84711BCBFAA7005D0F5F /* AppDelegate.swift */,
 				E21F84731BCBFAA7005D0F5F /* ViewController.swift */,
+				E21F84831BCC10F1005D0F5F /* DragImg.swift */,
+				E21F84871BCC17D9005D0F5F /* MonsterImg.swift */,
 				E21F84751BCBFAA7005D0F5F /* Main.storyboard */,
 				E21F84781BCBFAA7005D0F5F /* Assets.xcassets */,
 				E21F847A1BCBFAA7005D0F5F /* LaunchScreen.storyboard */,
 				E21F847D1BCBFAA7005D0F5F /* Info.plist */,
-				E21F84831BCC10F1005D0F5F /* DragImg.swift */,
 			);
 			path = "my-little-monster";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E21F84881BCC17D9005D0F5F /* MonsterImg.swift in Sources */,
 				E21F84841BCC10F1005D0F5F /* DragImg.swift in Sources */,
 				E21F84741BCBFAA7005D0F5F /* ViewController.swift in Sources */,
 				E21F84721BCBFAA7005D0F5F /* AppDelegate.swift in Sources */,
