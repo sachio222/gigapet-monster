@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var heartImg: DragImg!
     @IBOutlet weak var monsterImg: MonsterImg!
     
+    @IBOutlet weak var gameOverImg: UIStackView!
+    
     @IBOutlet weak var skull1Img: UIImageView!
     @IBOutlet weak var skull2Img: UIImageView!
     @IBOutlet weak var skull3Img: UIImageView!
@@ -40,9 +42,7 @@ class ViewController: UIViewController {
         foodImg.dropTarget = monsterImg
         heartImg.dropTarget = monsterImg
         
-        skull1Img.alpha = DIM_ALPHA
-        skull2Img.alpha = DIM_ALPHA
-        skull3Img.alpha = DIM_ALPHA
+        initializeGame()
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "itemDroppedOnCharacter:", name: "onTargetDropped", object: nil)
         
@@ -69,7 +69,6 @@ class ViewController: UIViewController {
             print(err.debugDescription)
         }
     
-        startTimer()
     }
     
     func itemDroppedOnCharacter(notif: AnyObject) {
@@ -146,6 +145,32 @@ class ViewController: UIViewController {
         timer.invalidate()
         monsterImg.playDeathAnimation()
         sfxDeath.play()
+        NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: "restartGameOption", userInfo: nil, repeats: false)
+    }
+    
+    @IBAction func playAgainPressed(sender: AnyObject) {
+        initializeGame()
+    }
+    
+    func restartGameOption() {
+        gameOverImg.hidden = false
+    }
+    
+    func initializeGame() {
+        
+        gameOverImg.hidden = true
+        
+        skull1Img.alpha = DIM_ALPHA
+        skull2Img.alpha = DIM_ALPHA
+        skull3Img.alpha = DIM_ALPHA
+        
+        penalties = 0
+        monsterHappy = false
+        currentItem = 0
+        
+        monsterImg.playIdleAnimation()
+        
+        startTimer()
     }
 }
 

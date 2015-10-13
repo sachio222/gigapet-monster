@@ -19,6 +19,7 @@
 		E27F644D1BCC7BA7006779CE /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = E27F64481BCC7BA7006779CE /* death.wav */; settings = {ASSET_TAGS = (); }; };
 		E27F644E1BCC7BA7006779CE /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = E27F64491BCC7BA7006779CE /* heart.wav */; settings = {ASSET_TAGS = (); }; };
 		E27F644F1BCC7BA7006779CE /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = E27F644A1BCC7BA7006779CE /* skull.wav */; settings = {ASSET_TAGS = (); }; };
+		E2D738B71BCC81B5000360F2 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2D738B61BCC81B5000360F2 /* Minecraft.ttf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E27F64481BCC7BA7006779CE /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
 		E27F64491BCC7BA7006779CE /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
 		E27F644A1BCC7BA7006779CE /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
+		E2D738B61BCC81B5000360F2 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				E27F64481BCC7BA7006779CE /* death.wav */,
 				E27F64491BCC7BA7006779CE /* heart.wav */,
 				E27F644A1BCC7BA7006779CE /* skull.wav */,
+				E2D738B61BCC81B5000360F2 /* Minecraft.ttf */,
 				E21F84711BCBFAA7005D0F5F /* AppDelegate.swift */,
 				E21F84731BCBFAA7005D0F5F /* ViewController.swift */,
 				E21F84831BCC10F1005D0F5F /* DragImg.swift */,
@@ -145,6 +148,7 @@
 				E27F644F1BCC7BA7006779CE /* skull.wav in Resources */,
 				E27F644B1BCC7BA7006779CE /* bite.wav in Resources */,
 				E27F644D1BCC7BA7006779CE /* death.wav in Resources */,
+				E2D738B71BCC81B5000360F2 /* Minecraft.ttf in Resources */,
 				E27F644E1BCC7BA7006779CE /* heart.wav in Resources */,
 				E27F644C1BCC7BA7006779CE /* cave-music.mp3 in Resources */,
 				E21F847C1BCBFAA7005D0F5F /* LaunchScreen.storyboard in Resources */,
